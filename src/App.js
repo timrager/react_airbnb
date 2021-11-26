@@ -1,8 +1,14 @@
 import React from 'react';
 
+import Navbar from '../src/components/Navbar';
+import Hero from '../src/components/Hero';
+
 const App = () => {
     return (
-        <h1>App Component</h1>
+        <div>
+            <Navbar />
+            <Hero />
+        </div>
     )
 }
 
